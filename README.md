@@ -22,7 +22,7 @@ available through [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/).
 | SHA256 | `sha256:3fc1daf74a2fc3bcc3cf7f72a632518f8c6b6e306ce12fddf4055d7cb44945c8` |
 | Source | [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/) (gravity) and [ETOPO1](https://doi.org/10.7289/V5C8276M) (topography) |
 | Original license | [public domain](https://ngdc.noaa.gov/ngdcinfo/privacy.html) (gravity) and [public domain](https://ngdc.noaa.gov/mgg/global/dem_faq.html#sec-2.4) (topography) |
-| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
+| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/bushveld-gravity/blob/main/prepare.ipynb) |
 
 ## Changes made
 
