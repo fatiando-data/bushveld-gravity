@@ -36,7 +36,7 @@ available through [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/).
   available in doi:
   [10.5281/zenodo.5882205](https://doi.org/10.5281/zenodo.5882205).
 * Gravity disturbances were computed by removing the normal gravity of the
-  WGS84 computed through [Boule](https://www.fatiando.org/boule).
+  WGS84 ellipsoid computed through [Boule](https://www.fatiando.org/boule).
 * Bouguer gravity disturbances were computed by forward modelling the
   topography using [Harmonica](https://www.fatiando.org/harmonica) starting
   from the topography grid provided in doi:
