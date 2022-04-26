@@ -1,6 +1,6 @@
 # Bushveld, Southern Africa - Observed and preprocessed gravity
 
-This gravity contains ground gravity observations over the area that comprises
+This dataset contains ground gravity observations over the area that comprises
 the Bushveld Igenous Complex in Southern Africa, including preprocessed gravity
 fields such as the *gravity disturbance* and the *bouguer gravity disturbance*
 (topography-free gravity disturbance). In addition, the dataset contains the
