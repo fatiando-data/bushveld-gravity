@@ -1,4 +1,4 @@
-name: fatiando-data-CHANGEME
+name: fatiando-data-bushveld-gravity
 channels:
   - conda-forge
   - defaults
@@ -7,7 +7,6 @@ dependencies:
   - pip
   - numpy
   - jupyterlab
-  - matplotlib
   - xarray
   - netcdf4
   - pyproj
@@ -16,6 +15,8 @@ dependencies:
   - gmt==6.2.0
   # Fatiando
   - pooch>=1.0
+  - ensaio>=0.3.0
+  - boule==0.3.*
   - harmonica==0.4.*
-  - verde==1.6.1
+  - verde==1.7.*
   - boule==0.3.*

@@ -1,39 +1,48 @@
-<!--
-This is a template for datasets in the Fatiando a Terra collection.
+# Bushveld, Southern Africa - Observed and preprocessed gravity
 
-When adding a new dataset, fill out the information below. Search for all
-instances of "CHANGEME" and replace with the relevant information.
+This dataset contains ground gravity observations over the area that comprises
+the Bushveld Igenous Complex in Southern Africa, including preprocessed gravity
+fields such as the *gravity disturbance* and the *bouguer gravity disturbance*
+(topography-free gravity disturbance). In addition, the dataset contains the
+heights of the observation points referenced on the WGS84 reference ellipsoid
+and over the mean sea-level (what can be considered to be the geoid). This
+dataset was built upon a portion of the Southern Africa gravity compilation
+available through [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/).
 
-You probably also want to edit the conda environment.yml file to give the
-environment a new name and add/remove dependencies.
-
-You can delete this comment once done.
--->
-
-# Location - Data type
-
-CHANGEME: A few sentences about the dataset and a plot should go here.
-
-![CHANGEME: The alt text of the image.](preview.jpg)
+![Gravity disturbance (mGal) over Bushveld](preview.jpg)
 
 | | Summary |
 |--:|:--|
-| File | `CHANGEME.csv` |
-| Size | CHANGEME Mb |
-| Version | [CHANGEME](https://github.com/fatiando-data/CHANGEME/releases/latest) |
+| File | `bushveld.csv.xz` |
+| Size | 0.14 Mb |
+| Version | [v1](https://github.com/fatiando-data/v1/releases/latest) |
 | DOI | https://doi.org/CHANGEME |
 | License | [CC-BY](https://creativecommons.org/licenses/by/4.0/) |
-| MD5 | `md5:CHANGEME` |
-| SHA256 | `sha256:CHANGEME` |
-| Source | CHANGEME: Citation and/or link to original data source |
-| Original license | CHANGEME: License (with link) of the original source |
-| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
+| MD5 | `md5:368284cc210c6bbe256e9e49e892f262` |
+| SHA256 | `sha256:3fc1daf74a2fc3bcc3cf7f72a632518f8c6b6e306ce12fddf4055d7cb44945c8` |
+| Source | [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/) (gravity) and [ETOPO1](https://doi.org/10.7289/V5C8276M) (topography) |
+| Original license | [public domain](https://ngdc.noaa.gov/ngdcinfo/privacy.html) (gravity) and [public domain](https://ngdc.noaa.gov/mgg/global/dem_faq.html#sec-2.4) (topography) |
+| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/bushveld-gravity/blob/main/prepare.ipynb) |
 
 ## Changes made
 
 > These are the changes made to the original dataset.
 
-* CHANGEME: List here changes made to the original data.
+* The original data were cropped to a region bounded by 25 and 32 degrees on
+  longitude and -27 and -23 degrees on latitude.
+* Geometric observation heights were obtained by adding geoid heights to the
+  original observation heights referenced on the mean sea-level. The geoid
+  heights on each observation point were obtained by interpolation of the geoid
+  available in doi:
+  [10.5281/zenodo.5882205](https://doi.org/10.5281/zenodo.5882205).
+* Gravity disturbances were computed by removing the normal gravity of the
+  WGS84 ellipsoid computed through [Boule](https://www.fatiando.org/boule).
+* Bouguer gravity disturbances were computed by forward modelling the
+  topography using [Harmonica](https://www.fatiando.org/harmonica) starting
+  from the topography grid provided in doi:
+  [10.5281/zenodo.6481379](https://doi.org/10.5281/zenodo.6481379)
+  and using densities of 2670 kg/m³ above the ellipsoid and
+  1040 - 2670 kg/m³ below the ellipsoid.
 
 ## About this repository
 
