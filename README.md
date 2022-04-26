@@ -40,7 +40,9 @@ available through [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/).
 * Bouguer gravity disturbances were computed by forward modelling the
   topography using [Harmonica](https://www.fatiando.org/harmonica) starting
   from the topography grid provided in doi:
-  [10.5281/zenodo.6481379](https://doi.org/10.5281/zenodo.6481379).
+  [10.5281/zenodo.6481379](https://doi.org/10.5281/zenodo.6481379)
+  and using densities of 2670 kg/m³ above the ellipsoid and
+  1040 - 2670 kg/m³ below the ellipsoid.
 
 ## About this repository
 
