@@ -13,7 +13,7 @@ available through [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/).
 
 | | Summary |
 |--:|:--|
-| File | `bushveld.csv.xz` |
+| File | `bushveld-gravity.csv.xz` |
 | Size | 0.14 Mb |
 | Version | [v1](https://github.com/fatiando-data/v1/releases/latest) |
 | DOI | https://doi.org/10.5281/zenodo.6511942 |
