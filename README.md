@@ -16,7 +16,7 @@ available through [NOAA NCEI](https://www.ngdc.noaa.gov/mgg/gravity/).
 | File | `bushveld.csv.xz` |
 | Size | 0.14 Mb |
 | Version | [v1](https://github.com/fatiando-data/v1/releases/latest) |
-| DOI | https://doi.org/CHANGEME |
+| DOI | https://doi.org/10.5281/zenodo.6511942 |
 | License | [CC-BY](https://creativecommons.org/licenses/by/4.0/) |
 | MD5 | `md5:368284cc210c6bbe256e9e49e892f262` |
 | SHA256 | `sha256:3fc1daf74a2fc3bcc3cf7f72a632518f8c6b6e306ce12fddf4055d7cb44945c8` |
